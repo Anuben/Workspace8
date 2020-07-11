@@ -16,14 +16,6 @@ elif(a > b):
 else:
     print("A is is equal to B")
 
-if(A == B):
-    print("A is eu to B")
-else:
-    print("same")   
-
-for i in range(1, 6):
-    print(i)    
-
 count = 0
 while count < 10:
     print(count)
@@ -34,6 +26,20 @@ myArray = [1, 3, 5, 7, 9]
 for element in myArray:
     print(element)
 
+weekDays = ["Sunday", "Monday", "Tuesday"]
+
+for day in weekDays:
+    print(day)
+
+print()
+print(weekDays[0])
+
+
+
+def sayHello():
+    print()
+    print("hello world!")
+sayHello()
 
 
        
